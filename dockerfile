@@ -1,3 +1,3 @@
 FROM clefos
-RUN yum install stress-ng
+RUN yum -y install stress-ng
 CMD ["bash"]
